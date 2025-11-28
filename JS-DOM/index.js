@@ -1,0 +1,16 @@
+const image=document.createElement('img');
+image.src="https://tse3.mm.bing.net/th/id/OIP.Xk6tWj3LhVSijYpVTEq0JQHaJh?pid=Api&P=0&h=180";
+image.alt="Book Image";
+image.width="200";
+const h3=document.createElement("h3");
+const h4=document.createElement("h4");
+h3.innerText="Title: Physics Book";
+h4.innerText="Price:  Rs:3000";
+const btn=document.createElement("button");
+btn.innerText="Add to Cart";
+const child=document.createElement("div");
+child.append(image);
+child.append(h3);
+child.append(h4);
+child.append(btn);
+document.getElementById("root").append(child);;
